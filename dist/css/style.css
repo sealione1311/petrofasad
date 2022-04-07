@@ -1,0 +1,106 @@
+body {
+  background-color: #fff;
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Open Sans";
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  padding-left: 35px;
+}
+
+.main-header .main-header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header span {
+  display: flex;
+  margin-right: 25px;
+  align-items: center;
+  position: relative;
+}
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.site-navigation li {
+  margin-left: 25px;
+  list-style-type: none;
+}
+
+.site-navigation li :hover {
+  color: rgb(35, 7, 137);
+}
+
+.site-navigation a {
+  text-decoration: none;
+}
+
+.offer {
+  height: 90vh;
+  background-color: #ebe6e6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.offer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.price {
+  height: 90vh;
+  margin-top: 30px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgb(76, 74, 76);
+}
+
+tbody td {
+  padding-top: 15px;
+  text-align: center;
+}
+
+th {
+  width: 100%;
+}
