@@ -27,7 +27,9 @@ a {
 }
 
 .main-header {
-  padding-left: 35px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-header .main-header-nav {
@@ -37,9 +39,12 @@ a {
 
 .main-header span {
   display: flex;
-  margin-right: 25px;
   align-items: center;
   position: relative;
+}
+
+.main-header span a {
+  color: rgb(26, 25, 25);
 }
 
 .site-navigation {
@@ -50,21 +55,22 @@ a {
 .site-navigation li {
   margin-left: 25px;
   list-style-type: none;
+  color: black;
 }
 
 .site-navigation li :hover {
-  color: rgb(35, 7, 137);
+  color: rgb(142, 140, 152);
 }
 
 .site-navigation a {
-  text-decoration: none;
+  color: black;
 }
 
 .offer {
   height: 90vh;
   background-color: #ebe6e6;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .offer-img {
@@ -84,16 +90,21 @@ a {
   padding-right: 25px;
 }
 
+.description {
+  display: flex;
+}
+
 .price {
   height: 90vh;
   margin-top: 30px;
 }
 
 table {
+  background-color: #ebe6e6;
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid rgb(76, 74, 76);
+  margin-top: 25px;
 }
 
 tbody td {
@@ -101,6 +112,6 @@ tbody td {
   text-align: center;
 }
 
-th {
-  width: 100%;
+tfoot {
+  margin-top: 30px;
 }
