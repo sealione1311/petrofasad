@@ -1,0 +1,104 @@
+
+.about {
+  font-size: 18px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 30px;
+
+}
+
+.advantages-title {
+  text-align: center;
+}
+
+.advantages-list {
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  @media (max-width: 600px) {
+    flex-direction: column;
+
+  }
+
+}
+
+.advantage-item {
+
+  background-size: 17%;
+  background-repeat: no-repeat;
+  background-position: top 5px center;
+  word-wrap: break-word;
+  text-align: center;
+  padding: 1rem;
+  padding-top: 3rem;
+  width: 24%;
+  list-style-type: none;
+  box-shadow: 0px 3px 15px rgb(0 0 0 / 9%);
+  @media (max-width: 600px) {
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
+.speed {
+  background-image: url('../img/speed.svg');
+}
+
+.control {
+  background-image: url('../img/quality.svg');
+}
+
+.experience {
+  background-image: url('../img/success.svg');
+}
+
+.money {
+  background-image: url('../img/coin.svg');
+}
+.about-offer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.description {
+  padding-bottom: 1rem;
+  display: flex;
+
+  @media (max-width: 400px) {
+    flex-direction: column;
+  }
+
+}
+
+.description-text {
+  display: flex;
+  align-items: center;
+  padding:  1rem 0;
+  margin: 0;
+  flex: 1 1 auto;
+  width: 60%;
+  @media (max-width: 400px) {
+    width: 100%
+  }
+}
+
+.description-img {
+  flex: 1 1 auto;
+  width: 30%;
+  @media (max-width: 400px) {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+.description-img img{
+  object-fit: cover;
+  float: right;
+  @media (max-width: 400px) {
+    display: block;
+    float: none;
+    margin: 0 auto;
+
+}
+}

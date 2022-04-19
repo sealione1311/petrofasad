@@ -1,0 +1,51 @@
+.main-header {
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+
+
+
+  & .main-header-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & span {
+
+    display: flex;
+    align-items: center;
+    position: relative;
+  & a {
+    color: rgb(26, 25, 25);
+  }
+}
+}
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+
+
+  & li {
+    text-transform: uppercase;
+    margin-left: 25px;
+    list-style-type: none;
+    color: black;
+    & :hover {
+      color: rgb(142, 140, 152)
+    }
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  & a {
+    color: black;
+  }
+
+
+
+
+}

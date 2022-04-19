@@ -1,0 +1,25 @@
+.price {
+  background-color: $primaryColor;
+  padding: 1rem;
+
+}
+
+table {
+  background-color: $primaryColor;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+
+}
+
+
+tbody td {
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+tfoot {
+  margin-top: 30px;
+}
