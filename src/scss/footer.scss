@@ -12,6 +12,17 @@
 
    }
 }
+.footer-name {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer-year{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contacts {
   display: flex;
   flex-direction: column;
