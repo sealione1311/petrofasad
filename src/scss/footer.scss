@@ -26,4 +26,7 @@
 .contacts {
   display: flex;
   flex-direction: column;
+  & a {
+    color: rgb(26, 25, 25);
+  }
 }

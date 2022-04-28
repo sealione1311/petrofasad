@@ -188,14 +188,14 @@ a {
 
 .price {
   background-color: #ebe6e6;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 table {
+  padding-bottom: 25px;
   background-color: #ebe6e6;
   width: 100%;
   border-collapse: collapse;
-  margin-top: 25px;
 }
 
 tbody td {
@@ -203,8 +203,15 @@ tbody td {
   text-align: center;
 }
 
-tfoot {
-  margin-top: 30px;
+.table-footer-title {
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.table-footer {
+  text-align: center;
+  width: 100%;
 }
 
 .footer {
@@ -231,6 +238,10 @@ tfoot {
 .contacts {
   display: flex;
   flex-direction: column;
+}
+
+.contacts a {
+  color: rgb(26, 25, 25);
 }
 
 @media (max-width: 600px) {
