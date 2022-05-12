@@ -2,19 +2,35 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-
   min-height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   @media (max-width: 500px) {
     flex-direction: column;
-
+    font-size: 1.3rem;
    }
 }
 .footer-name {
   display: flex;
   flex-direction: column;
+  @media (max-width: 500px) {
+    align-items: center;
+   }
+}
+
+
+.footer-year{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  & a {
+    color: rgb(26, 25, 25);
+  }
 }
 
 
