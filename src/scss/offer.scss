@@ -1,29 +1,47 @@
 .offer {
-  padding: 3rem;
-  height:  90vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  justify-content: space-between;
+  &-text {
+    padding: 0;
+
+
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+
+  }
+  &-img {
+    width: 30%;
+    display: flex;
+
+    & img {
+      display: block;
+
+
+
+    }
+  }
+
   background-color: $primaryColor;
-  display: flex;
-  justify-content: center;
+  &-wrapper{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
   @media (max-width: 500px) {
     flex-direction: column;
 
    }
-  &-img {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+
+
+
+
+
+
   }
 
 
 
-  &-text {
 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-  }
 
 }
-
-

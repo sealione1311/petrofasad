@@ -6,6 +6,10 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -23,6 +27,16 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.swiper-slide.img-slide {
+  height: 200px;
+}
+
+.swiper-slide.img-slide img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @font-face {
@@ -84,22 +98,31 @@ a {
 }
 
 .offer {
-  padding: 3rem;
-  height: 90vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  justify-content: space-between;
   background-color: #ebe6e6;
-  display: flex;
-  justify-content: center;
-}
-
-.offer-img {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .offer-text {
+  padding: 0;
   display: flex;
-  justify-content: flex-end;
+  text-align: center;
+  flex-direction: column;
+}
+
+.offer-img {
+  width: 30%;
+  display: flex;
+}
+
+.offer-img img {
+  display: block;
+}
+
+.offer-wrapper {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -107,8 +130,8 @@ a {
   margin: 0 auto;
   min-width: 320px;
   max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .about {
@@ -277,7 +300,7 @@ tbody td {
 }
 
 @media (max-width: 500px) {
-  .offer {
+  .offer-wrapper {
     flex-direction: column;
   }
 

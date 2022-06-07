@@ -6,22 +6,60 @@
 })
 <body>
   @@include("html/header.html", {})
-  <main class="container">
+  <main class="">
     <section class="offer ">
-      <div class="offer-text">
-        <h4>
-          Крышки для пистолета автозаправочной станции  ЕК 145 от производителя по оптовым ценам<br>
-          Цвета в наличии: белый, черный, синий, зеленый, желтый. <br>
+      <div class="container offer-wrapper ">
+      <div class="offer-text ">
+        <h3>
+          Крышки для пистолета автозаправочной станции  ЕК 145 от производителя по оптовым ценам<br></h3>
+          <p>
+            Цвета в наличии: белый, черный, синий, зеленый, желтый. <br>
           Возможно изготовление разных цветов.
+          Индикаторная насадка  ЕК 145 с указанием вида или марки топлива предназначена
+          для установки на топливо-раздаточные пистолеты стандарта ZVA, ZVA2 и ZVA GR.
+          Специальная форма ножек индикаторной насадки позволяет жестко зафиксировать значок на чехле автозаправочного пистолета.
+          Материал насадки - пластмасса <br>
           Заказ от 100шт.
-        </h4>
+          </p>
+
       </div>
-      <div class="offer-img">
-        <img src="@img/offer.png" alt="">
+
+    </div>
+    <div class="swiper container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide img-slide">
+          <img src="@img/dtt.png" alt="">
+        </div>
+
+
+        <div class="swiper-slide img-slide">
+          <img src="@img/green.png" alt="">
+        </div>
+        <div class="swiper-slide img-slide">
+          <img src="@img/yellow.png" alt="">
+        </div>
+        <div class="swiper-slide img-slide">
+          <img src="@img/black.png" alt="">
+        </div>
+        <div class="swiper-slide img-slide">
+          <img src="@img/white2.png" alt="">
+        </div>
+        <div class="swiper-slide img-slide">
+          <img src="@img/white.png" alt="">
+        </div>
+
+
+
       </div>
+
+
+
+    </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="about" class="about container">
       <p class="about-company">
         Российская производственная компания «Петрофасад» основана в 2002 году.
         Мы специализируемся на производстве упаковки и различных изделий из пластмассы.
@@ -46,7 +84,6 @@
         </ul>
         <h4 class="about-offer">«Петрофасад» предлагает:</h4>
       </div>
-
       <div id="about-good" class="description">
 
         <p class="description-text">
@@ -55,10 +92,12 @@
           Специальная форма ножек индикаторной насадки позволяет жестко зафиксировать значок на чехле автозаправочного пистолета.
           Материал насадки - пластмасса
         </p>
-        <div class="description-img">
-          <img  src="@img/about.png"  alt="Индикаторная насадка  ЕК 145">
+        <div class="description-video">
+          <video src="./files/video.mp4" width="300" height="300" controls></video>
 
         </div>
+
+
       </div>
     </section>
 
@@ -84,6 +123,7 @@
     </section>
   </main>
   @@include("html/footer.html", {})
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="./js/app.min.js"></script>
 </body>
 </html>
