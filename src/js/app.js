@@ -4,6 +4,9 @@ flsFunction.isWebp()
 
 const swiper = new Swiper('.swiper', {
   speed: 400,
+  autoplay: {
+    delay: 2000,
+  },
 
   slidesPerView: 2,
   centeredSlides: true,
