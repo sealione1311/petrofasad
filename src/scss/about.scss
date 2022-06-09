@@ -1,10 +1,8 @@
-
 .about {
   font-size: 18px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 30px;
-
 }
 
 .advantages-title {
@@ -17,13 +15,10 @@
   display: flex;
   @media (max-width: 600px) {
     flex-direction: column;
-
   }
-
 }
 
 .advantage-item {
-
   background-size: 17%;
   background-repeat: no-repeat;
   background-position: top 5px center;
@@ -40,6 +35,7 @@
     width: 100%;
   }
 }
+
 .speed {
   background-image: url('../img/speed.svg');
 }
@@ -55,6 +51,7 @@
 .money {
   background-image: url('../img/coin.svg');
 }
+
 .about-offer {
   margin-top: 30px;
   text-align: center;
@@ -63,11 +60,9 @@
 .description {
   padding-bottom: 1rem;
   display: flex;
-
   @media (max-width: 400px) {
     flex-direction: column;
   }
-
 }
 
 .description-text {
@@ -90,15 +85,14 @@
     align-items: center;
     justify-content: center;
   }
-
 }
-.description-img img{
+
+.description-img img {
   object-fit: cover;
   float: right;
   @media (max-width: 400px) {
     display: block;
     float: none;
     margin: 0 auto;
-
-}
+  }
 }

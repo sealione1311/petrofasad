@@ -2,19 +2,14 @@
  padding-top: 1rem;
  padding-bottom: 1rem;
  font-weight: 700;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-
-
-
+ max-width: 1200px;
+ display: flex;
+ justify-content: space-between;
   & .main-header-nav {
     display: flex;
     justify-content: space-between;
   }
-
   & span {
-
     display: flex;
     align-items: center;
     position: relative;
@@ -27,8 +22,6 @@
 .site-navigation {
   display: flex;
   align-items: center;
-
-
   & li {
     text-transform: uppercase;
     margin-left: 25px;
@@ -41,14 +34,7 @@
       display: none;
     }
   }
-
   & a {
-
     color: black;
-    
   }
-
-
-
-
 }

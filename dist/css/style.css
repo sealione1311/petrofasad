@@ -126,6 +126,14 @@ a {
   align-items: center;
 }
 
+.scale-img-92 {
+  transform: scale(0.85);
+}
+
+.scale-img-98 {
+  transform: scale(1.2);
+}
+
 .container {
   margin: 0 auto;
   min-width: 320px;

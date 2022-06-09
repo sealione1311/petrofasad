@@ -6,13 +6,11 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -37,6 +35,5 @@ a {
   & img {
     height: 100%;
     object-fit: cover;
-
   }
 }
